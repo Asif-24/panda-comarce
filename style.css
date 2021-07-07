@@ -8,10 +8,10 @@
 .price{
     color: #FF136F;
 }
-.by-button{
+.sub-button,.by-button{
     text-decoration: none;
     background-image: linear-gradient(to bottom,#ff5898 0%,#ff136f 100%);
-    color: wheat;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border: none;
     border-radius: 8px;
@@ -19,4 +19,54 @@
 }
 .container{
     margin-bottom: 100px;
+}
+.list1{
+    background-color: orange;
+   
+}
+.list3{
+    background-color: blue;
+}
+.list2{
+    background-color: orchid;
+}
+.list1,.list2,.list3{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+
+.group img{
+    width: 100px;
+}
+
+.h-100{
+    border: none;
+    box-shadow:5px 5px 10px lightgrey;
+}
+
+button.by-button.btn1 {
+    margin-top: 45px;
+}
+button.by-button.btn2 {
+    margin-top: 74px;
+}
+.subscrip{
+    height: 300px;
+}
+.inpurt{
+    
+}
+footer {
+    text-align: center;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+.from h3 {
+    font-size: 1.75rem;
+}
+.from h6 {
+    color: gray;
 }
